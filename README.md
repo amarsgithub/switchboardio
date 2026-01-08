@@ -2,6 +2,8 @@
 
 A minimal, modular, and extensible multi-provider LLM chat interface.
 
+[**Roadmap**](./ROADMAP.md) | [**Contributing**](./CONTRIBUTING.md)
+
 ## Project Goals
 - **Modular Architecture**: Clear separation between frontend, backend, and LLM providers.
 - **Extensibility**: Easy to add new LLM providers by implementing a simple interface.
