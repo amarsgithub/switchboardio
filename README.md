@@ -1,6 +1,6 @@
-# Skeleton Multi-Provider LLM Chat Interface
+# SwitchboardIO
 
-A minimal, modular, and extensible skeleton for building multi-provider LLM chat applications.
+A minimal, modular, and extensible multi-provider LLM chat interface.
 
 ## Project Goals
 - **Modular Architecture**: Clear separation between frontend, backend, and LLM providers.
@@ -57,7 +57,7 @@ export class MyProvider extends BaseProvider {
 2. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Note on Implementation
-This is a **skeleton implementation**. Most providers use mocked streaming responses to demonstrate the architecture. However, a **real OpenRouter provider** is included to show how to route requests to actual models.
+This is a **SwitchboardIO implementation**. Most providers use mocked streaming responses to demonstrate the architecture. However, a **real OpenRouter provider** is included to show how to route requests to actual models.
 
 To use the real OpenRouter provider:
 1. Copy `.env.example` to `.env`.

@@ -1,7 +1,7 @@
 # Architecture: Skeleton Multi-Provider LLM Chat Interface
 
 ## Overview
-This project is a lightweight, modular skeleton for a multi-provider LLM chat interface. It focuses on a clean separation of concerns between the frontend, backend API, provider abstraction, and storage.
+SwitchboardIO is a lightweight, modular multi-provider LLM chat interface. It focuses on a clean separation of concerns between the frontend, backend API, provider abstraction, and storage.
 
 ## Folder Structure
 ```text
