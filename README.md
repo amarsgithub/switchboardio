@@ -57,6 +57,9 @@ export class MyProvider extends BaseProvider {
 2. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Note on Implementation
-This is a **skeleton implementation**. The providers currently use mocked streaming responses to demonstrate the architecture without requiring API keys. To use real providers, you would need to:
-1. Add your API keys to a `.env` file.
-2. Update the provider adapters in `src/backend/providers/` to use the respective SDKs (e.g., `openai`, `@anthropic-ai/sdk`).
+This is a **skeleton implementation**. Most providers use mocked streaming responses to demonstrate the architecture. However, a **real OpenRouter provider** is included to show how to route requests to actual models.
+
+To use the real OpenRouter provider:
+1. Copy `.env.example` to `.env`.
+2. Add your `OPENROUTER_API_KEY`.
+3. Select "OpenRouter (Real)" in the UI.

@@ -2,11 +2,13 @@ import { ChatRequest, LLMProvider } from '../../shared/types';
 import { OpenAIProvider } from '../providers/openai';
 import { AnthropicProvider } from '../providers/anthropic';
 import { GeminiProvider } from '../providers/gemini';
+import { OpenRouterProvider } from '../providers/openrouter';
 
 const providers: Record<string, LLMProvider> = {
   openai: new OpenAIProvider(),
   anthropic: new AnthropicProvider(),
   gemini: new GeminiProvider(),
+  openrouter: new OpenRouterProvider(),
 };
 
 export async function handleChatStream(req: Request): Promise<Response> {
